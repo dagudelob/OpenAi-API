@@ -62,4 +62,5 @@ if run.status == "completed":
     for msg in messages:
         if msg.role == "assistant":
             for content_block in msg.content:
-                print(content_block.text.value)
+                
+                print(content_block.text.value) 
